@@ -44,9 +44,7 @@ public class Login extends AppCompatActivity {
         LoginButton = findViewById(R.id.LoginButton);
         HaveAcc = findViewById(R.id.HaveAccount);
 
-        toolbar = findViewById(R.id.LoginTb);
 
-        getSupportActionBar().setTitle("Login");
 
         mAuth = FirebaseAuth.getInstance();
         loader = new ProgressDialog(this);

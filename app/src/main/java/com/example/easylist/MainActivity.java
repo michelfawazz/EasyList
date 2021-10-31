@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, RegisterActivity.class );
                 startActivity(intent);
                 finish();
+
             }
         }, SPLASH);
 

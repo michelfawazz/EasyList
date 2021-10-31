@@ -39,8 +39,7 @@ public class RegisterActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_register);
 
-        toolbar = findViewById(R.id.RegisterTb);
-        getSupportActionBar().setTitle("Register");
+
 
         RgstEmail = findViewById(R.id.RegisterEmail);
         RgstPassword = findViewById(R.id.RegisterPassword);
