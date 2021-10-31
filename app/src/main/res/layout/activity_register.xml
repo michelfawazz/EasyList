@@ -6,11 +6,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/background_design"
-    tools:context=".Login">
+    tools:context=".RegisterActivity">
+
+
 
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/LoginTb"
+        android:id="@+id/RegisterTb"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#fff"
@@ -27,7 +29,7 @@
         android:src="@drawable/logo" />
 
     <EditText
-        android:id="@+id/LoginEmail"
+        android:id="@+id/RegisterEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Email"
@@ -46,7 +48,7 @@
         />
 
     <EditText
-        android:id="@+id/LoginPassword"
+        android:id="@+id/RegisterPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Password"
@@ -61,25 +63,24 @@
         />
 
     <Button
-        android:id="@+id/LoginButton"
+        android:id="@+id/RegisterButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="Register"
         android:textAllCaps="false"
         android:layout_margin="10dp"
         android:textColor="#fff"
         />
 
     <TextView
-        android:id="@+id/HaveAccount"
+        android:id="@+id/HaveAccountLog"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Don't Have an Account? Register"
+        android:text="Have an Account? Login"
         android:textColor="#fff"
         android:layout_gravity="center"
         android:layout_margin="10dp"
 
         />
-
 
 </LinearLayout>
