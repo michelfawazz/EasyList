@@ -5,11 +5,14 @@
       <map>
         <entry key="app/src/main/res/drawable/background_design.xml" value="0.25885416666666666" />
         <entry key="app/src/main/res/drawable/inputs.xml" value="0.25885416666666666" />
+        <entry key="app/src/main/res/layout/activity_alltasks.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.21829710144927536" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.2587038871118268" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.10259857177734376" />
+        <entry key="app/src/main/res/layout/activity_overview.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.24270833333333333" />
         <entry key="app/src/main/res/layout/input_file.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/overview.xml" value="0.21422101449275363" />
         <entry key="app/src/main/res/layout/retrieved_layout.xml" value="0.335" />
       </map>
     </option>

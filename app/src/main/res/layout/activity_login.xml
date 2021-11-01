@@ -9,14 +9,7 @@
     tools:context=".Login">
 
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/LoginTb"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#fff"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:popupTheme="@style/Theme.AppCompat.Light"
-        />
+
 
 
     <ImageView
@@ -26,12 +19,25 @@
         android:layout_marginTop="50dp"
         android:src="@drawable/logo" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+
+        />
+
     <EditText
         android:id="@+id/LoginEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Email"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"

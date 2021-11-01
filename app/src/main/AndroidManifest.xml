@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EasyList">
         <activity
+            android:name=".Overview"
+            android:exported="true" />
+        <activity
             android:name=".allTasks"
             android:exported="true" />
         <activity
