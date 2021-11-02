@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
@@ -14,6 +15,8 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -42,6 +45,8 @@ public class allTasks extends AppCompatActivity {
     private String description;
 
     private ProgressDialog loader;
+
+    private FloatingActionButton profileBtn;
 
 
     @Override
@@ -75,6 +80,20 @@ public class allTasks extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 CreateTask();
+            }
+        });
+
+
+
+        profileBtn =  findViewById(R.id.FloatingProfile);
+        profileBtn.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(allTasks.this, Profile.class);
+                startActivity(intent);
+
             }
         });
 
