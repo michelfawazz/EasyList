@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/overview2">
+
+    <activity
+        android:id="@+id/overview2"
+        android:name="com.example.easylist.Overview"
+        android:label="activity_overview"
+        tools:layout="@layout/activity_overview" />
+    <activity
+        android:id="@+id/allTasks2"
+        android:name="com.example.easylist.allTasks"
+        android:label="activity_alltasks"
+        tools:layout="@layout/activity_alltasks" />
+    <activity
+        android:id="@+id/profile2"
+        android:name="com.example.easylist.Profile"
+        android:label="activity_profile"
+        tools:layout="@layout/activity_profile" />
+</navigation>
