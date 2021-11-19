@@ -3,156 +3,136 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent">
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="Create New Task"
+        android:text="Update"
         android:gravity="center"
-        android:background="#6495ED"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:padding="10dp"
+        android:background="@drawable/background_design"
         android:textColor="#fff"
-        />
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:orientation="horizontal">
-
-
         <RelativeLayout
+
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="2">
-
+            android:layout_weight="2"
+            >
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Task Name"
+                android:text="Task"
                 android:textStyle="bold"
-                android:layout_margin="10dp"
-                />
-
+                android:textColor="#000"
+                android:layout_margin="10dp"/>
         </RelativeLayout>
 
         <RelativeLayout
+
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="4">
-
+            android:layout_weight="4"
+            >
             <EditText
-                android:id="@+id/task"
+                android:id="@+id/EditTask"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Task "
+                android:hint="Task"
                 android:textStyle="bold"
-                android:layout_margin="10dp"
-                />
-
+                android:textColor="#000"
+                android:layout_margin="10dp"/>
         </RelativeLayout>
 
 
     </LinearLayout>
 
-
-
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:orientation="horizontal">
-
-
         <RelativeLayout
+
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="2">
-
+            android:layout_weight="2"
+            >
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Description"
                 android:textStyle="bold"
-                android:layout_margin="10dp"
-                />
-
+                android:textColor="#000"
+                android:layout_margin="10dp"/>
         </RelativeLayout>
 
         <RelativeLayout
+
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="4">
-
+            android:layout_weight="4"
+            >
             <EditText
-                android:id="@+id/description"
+                android:id="@+id/EditDesc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginBottom="10dp"
-                android:hint="Description ..."
-                android:textStyle="bold" />
-
+                android:hint="Description"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_margin="10dp"/>
         </RelativeLayout>
 
 
     </LinearLayout>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:orientation="horizontal">
 
         <RelativeLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2">
-
-
             <Button
-                android:id="@+id/cancelBtn"
+                android:id="@+id/btnDelete"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginBottom="10dp"
-                android:backgroundTint="#cf142b"
-                android:text="cancel"
-                android:textAllCaps="true"
-                android:textStyle="bold" />
+                android:text="Delete"
 
-                />
+                android:textAllCaps="false"
+                android:backgroundTint="#cf142b"
+                android:textColor="#fff"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"/>
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2">
-
-
             <Button
-                android:id="@+id/saveBtn"
+                android:id="@+id/btnUpdate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Save"
-                android:textAllCaps="true"
-                android:layout_margin="10dp"
-                android:textStyle="bold"/>
-
-            />
+                android:text="Update"
+                android:textAllCaps="false"
+                android:background="@drawable/background_design"
+                android:textColor="#fff"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"/>
         </RelativeLayout>
-
-
     </LinearLayout>
-
 
 
 </LinearLayout>
