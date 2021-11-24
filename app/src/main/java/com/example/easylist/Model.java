@@ -3,6 +3,7 @@ package com.example.easylist;
 public class Model {
     private String task;
     private String description;
+
     private String id;
     private String date;
 
